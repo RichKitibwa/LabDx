@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/predict")
 def result():
     # Loading model to predict the results
    model = pickle.load(open("model.pkl", "rb")) 
