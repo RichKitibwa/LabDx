@@ -1,6 +1,7 @@
 from flask import Flask
+import pandas as pd
 import pickle
-import sklearn
+import Scikit-learn
 import numpy as np
 
 app = Flask(__name__)
