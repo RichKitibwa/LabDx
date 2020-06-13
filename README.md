@@ -19,4 +19,6 @@ Add the requirements file by running `pip freeze > requirements.txt`, Add the Pr
 Add runtime.txt file, add this `python-3.7.2`  . 
 Then add all changes and commit by running `git add . && git commit -m 'commit message'`  
 
-Finally push to heroku by running `heroku git:remote -a LabDx`
+Finally push to heroku by running `git push master heroku`
+
+Then run then the program using `heroku open`
