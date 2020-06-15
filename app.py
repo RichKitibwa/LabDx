@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+from os import environ
 import pandas as pd
 import pickle
 import numpy as np
@@ -16,4 +17,4 @@ def result():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(port=5000)   
+    app.run(port=environ.get("PORT", 5000))
