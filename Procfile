@@ -1,1 +1,1 @@
-web: python app.py
+web: gunincorn app:app
